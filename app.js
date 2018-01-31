@@ -2,7 +2,10 @@
 var express = require("express");
 var app = express();
 var mongoose = require("mongoose");
+var bodyParser = require("body-parser");
 
+
+app.use(bodyParser.urlencoded({extended: true}));
 // Connect mongoose to server
 mongoose.connect("mongodb://localhost/token_collection");
 
@@ -73,8 +76,16 @@ app.get("/gallery", function(req, res){
 
 // Individual element
 app.get("/gallery/:id", function(req, res) {
-    // Find token
-    res.render("show");
+    // Find token with provides ID
+    Token.findById(req.params.id, function(err, foundToken){
+        if (err) {
+            console.log(err);
+        }
+        else {
+            // Find token
+            res.render("show", {foundToken: foundToken});
+        }
+    });
 });
 
 // Company Page
