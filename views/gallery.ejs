@@ -1,0 +1,28 @@
+<!--INCLUDE HEADER-->
+<%include partials/header%>
+
+
+<div class="container">
+    <header class="jumbotron">
+        <h1>This is the Gallery Section</h1>
+        <p>T-shirts</p>
+    </header>
+
+    <a href="/">Back To Home</a>
+    
+    <div class="row text-center" style="display: flex; flex-wrap:wrap">
+        <% collection.forEach(function(shirt){ %>
+            <div class="col-md-4 col-xs-6">
+                <div class="thumbnail" style="background: #000000;">
+                    <img style="width: 100%; height: 500px; background-size: cover; background-position: center center;" src="<%=shirt.image%>">
+                    <div class="caption" style="color: #FFFFFF;">
+                        <h4><%=shirt.model%></h4>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
+
+<!--INCLUDE FOOTER-->
+<%include partials/footer%>
