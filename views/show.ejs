@@ -1,6 +1,16 @@
 <!--INCLUDE HEADER-->
 <%include partials/header%>
-<h1>SHOW TEMPLATE</h1>
-    <p><%=foundToken.model%></p>
+
+<div class = "container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img class="img-responsive" src="<%=foundToken.image%>">
+            
+            </div>
+        </div>
+    </div>
+</div>
+<h1><%=foundToken.model%></h1>
 <!--INCLUDE FOOTER-->
 <%include partials/footer%>
