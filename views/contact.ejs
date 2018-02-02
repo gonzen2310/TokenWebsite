@@ -1,5 +1,57 @@
 <!--INCLUDE HEADER-->
 <%include partials/header%>
-<h1>CONTACT US</h1>
+<section class="first">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="thumbnail">
+                    <img class="image-responsive contactimage" src="https://i.imgur.com/Vp65DuO.jpg">
+                    <div class="caption-full">
+                        <div class="pull-left">
+                           <h3>Xtra value</h3> 
+                           <p>5405 NW 193rd St.<br>Miami Gardens<br>FL 33014-USA</p>
+                           <p>Tel: 1 (786) 299-7218</p>
+                        </div>
+                        <div>
+                            <form class="form-horizontal ">
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label">Name</label>
+                              <div class="col-sm-10">
+                                <input class="form-control" id="focusedInput" type="text" value="Name">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-2 control-label" for="email">Email</label>
+                              <div class="col-sm-10">
+                                <input class="form-control" id="email" type="email" value="Email">
+                              </div>
+                            </div>
+                             <div class="form-group">
+                            <label for="inquirytype" class="col-sm-2 control-label">Inquiry</label>
+                            <div class="col-sm-10">
+                              <select id="inquirytype" class="form-control">
+                                <option>Customer Care</option>
+                                <option>Marketing</option>
+                                <option>Employment/HR</option>
+                                <option>General/Other</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                              <label class="col-sm-2 control-label" for="inquiry">Your inquiry</label>
+                              <div class="col-sm-10">
+                                  <textarea class="form-control" rows="5" id="inquiry"></textarea>
+                                  <button type="submit" class="btn btn-default">Submit</button>
+                              </div>
+                            </div>
+                      </form>  
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!--INCLUDE FOOTER-->
 <%include partials/footer%>

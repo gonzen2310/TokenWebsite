@@ -17,6 +17,22 @@ var data = [
        model: "12-0319", 
        description: "MEN’S Long Sleeve Gran Prix T-SHIRT", 
        image: "https://i.imgur.com/0AvYA79.jpg"
+   },
+   {
+        model: "12-0324",
+        description: "MEN’S Long Sleeve Star T-SHIRT", 
+        image: "https://i.imgur.com/32IeJkw.jpg"
+    },
+    {
+        model: "12-0326", 
+        description: "MEN’S Long Sleeve NEW YORK T-SHIRT", 
+        image: "https://i.imgur.com/fLJ1cif.jpg"
+        
+    },
+   {
+       model: "12-0319", 
+       description: "MEN’S Long Sleeve Gran Prix T-SHIRT", 
+       image: "https://i.imgur.com/0AvYA79.jpg"
    }
 ]
 
