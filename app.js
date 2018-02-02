@@ -10,7 +10,9 @@ seedDB();
 
 app.use(bodyParser.urlencoded({extended: true}));
 // Connect mongoose to server
-mongoose.connect("mongodb://localhost/token_collection");
+//mongoose.connect("mongodb://localhost/token_collection");
+mongoose.connect("mongodb://gonzen2310:gonzalo2310@ds123718.mlab.com:23718/tokendb");
+
 
 // Add .ejs extension at the end of view
 app.set("view engine", "ejs");
