@@ -1,27 +1,21 @@
 <!--INCLUDE HEADER-->
 <%include partials/header%>
 
-<section class="gallerybg">
-    <div class="container">
+<section>
+
+    <div class="row text-center parallax" style="display: flex; flex-wrap:wrap">
+        <div class="container ">
     <header class="jumbotron">
-        <h1>This is the Gallery Section</h1>
+        <h1>Our Collection Spring/Summer 2018</h1>
         <p>T-shirts</p>
     </header>
-
-    <a href="/">Back To Home</a>
-    
-    <div class="row text-center" style="display: flex; flex-wrap:wrap">
         <% collection.forEach(function(shirt){ %>
             <div class="col-md-4 col-xs-6">
-                <div class="thumbnail" style="background: #000000;">
+                <a href="/gallery/<%= shirt._id%>" class="thumbnail" style="background: #000000;">
                     <img style="width: 100%; height: 500px; background-size: cover; background-position: center center;" src="<%=shirt.image%>">
-                    <div class="caption" style="color: #FFFFFF;">
-                        <h4><%=shirt.model%></h4>
-                    </div>
-                    <p>
-                        <a href="/gallery/<%= shirt._id%>" class="btn btn-primary">CLICK FOR MORE</a>
-                    </p>
-                </div>
+
+
+                </a>
             </div>
         <% }); %>
     </div>

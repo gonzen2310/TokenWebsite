@@ -7,15 +7,6 @@
     background-color: transparent;
 }
 
-.gallerybg {
-    background-image: url("https://images.unsplash.com/photo-1415889455891-23bbf19ee5c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5025d379155afa5d4070dcb979acdf09&auto=format&fit=crop&w=1355&q=80");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height:100vh; 
-    min-height:400px; 
-    background-size:cover;
-}
-
 .first {
    height:100vh; 
    min-height:400px; 
@@ -43,11 +34,15 @@
 }
 
 .homethumbnail{
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .jumbotron {
     background-color: rgb(252, 148, 45);
+}
+
+.jumbotron-home{
+    height: 45%;
 }
 
 .historycard{
@@ -61,4 +56,83 @@
 
 .contactimage{
     width:100%;
+}
+
+.thumbnail.right-caption>img{
+    float: left;
+    margin-right: 9px;
+}
+
+.thumbnail.right-caption{
+    float: left;
+}
+
+.thumbnail.right-caption>.caption{
+    padding: 4px;
+}
+
+.center-row {
+    padding: 10px 10%;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(252, 148, 45);
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #FFFFFF;
+}
+
+
+.addressinfo{
+    background-color: red;
+}
+
+.contactform {
+    background-color: blue;
+}
+
+.containerhome{
+    width: 100%;
+    background-color: rgb(252, 148, 45);
+}
+
+.containerimageshome {
+    width: 100%;
+    background-color: gray;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.mainimage{
+    padding: 0;
+}
+
+.thumbnailhome {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.rowhome {
+    margin: 0;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1415889455891-23bbf19ee5c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5025d379155afa5d4070dcb979acdf09&auto=format&fit=crop&w=1355&q=80');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

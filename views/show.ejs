@@ -1,16 +1,29 @@
 <!--INCLUDE HEADER-->
 <%include partials/header%>
 
-<div class = "container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="thumbnail">
+<div class="first">
+    <div class = "container">
+    <div class="row center-row">
+        <div class="col-sm-5">
+            <div class="thumbnail right-caption">
                 <img class="img-responsive" src="<%=foundToken.image%>">
-            
+            </div>
+        </div>
+         <div class="col-sm-6">
+            <div class="thumbnail">
+                <h2><%=foundToken.description%></h2>
+                <h2>STYLE: <%=foundToken.model%></h2>
+                <p>96% cotton - 4% spandex</p>
+                <p>Short sleeve silhouette</p>
+                <p>Text imprint for added style</p>
+                <p>Size:</p>
+                <p>S - M - L - XL</p>
+                <p>Color:</p>
+                
             </div>
         </div>
     </div>
 </div>
-<h1><%=foundToken.model%></h1>
+</div>
 <!--INCLUDE FOOTER-->
 <%include partials/footer%>
