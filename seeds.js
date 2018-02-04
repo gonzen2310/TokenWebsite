@@ -2,6 +2,36 @@ var mongoose = require("mongoose");
 var Token = require("./models/token");
 
 var data = [
+    // T-shirts
+    {
+        model: "12-0154",
+        description: "MEN’S LION T-SHIRT", 
+        image: "https://i.imgur.com/cEtyqOZ.jpg"
+    },
+    {
+        model: "12-0154",
+        description: "MEN’S ORIGINAL CLASSIC T-SHIRT", 
+        image: "https://i.imgur.com/ntDYlk0.jpg"
+    },
+    {
+        model: "12-0154",
+        description: "MEN’S EAGLE NEW YORK T-SHIRT", 
+        image: "https://i.imgur.com/nwwpyJh.jpg"
+    },
+    {
+        model: "12-0154",
+        description: "MEN’S NEW YORK CITY N/Y T-SHIRT", 
+        image: "https://i.imgur.com/oqblODl.jpg"
+    },
+    {
+        model: "12-0154",
+        description: "MEN’S EAGLE T-SHIRT", 
+        image: "https://i.imgur.com/CsQCE2R.jpg"
+    },
+    
+    
+    
+    // Pullovers
     {
         model: "12-0324",
         description: "MEN’S Long Sleeve Star T-SHIRT", 
