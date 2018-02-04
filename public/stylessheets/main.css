@@ -135,7 +135,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url('https://i.imgur.com/ZZMyXd3.png');
+    background-color: #FFFFFF;
 
     /* Full height */
     height: 100%; 
