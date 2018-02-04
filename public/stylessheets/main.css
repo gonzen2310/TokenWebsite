@@ -72,13 +72,16 @@
     float: left;
 }
 
+.thumbnail.right-caption>img{
+    width: 100%;
+    margin-right: 150px;
+}
+
 .thumbnail.right-caption>.caption{
     padding: 4px;
 }
 
-.center-row {
-    padding: 10px 10%;
-}
+
 
 .navbar-default .navbar-brand {
     color: rgb(252, 148, 45);
@@ -99,7 +102,7 @@
 
 .containerhome{
     width: 100%;
-    background-color: rgb(252, 148, 45);
+    background-color: rgb(178, 197, 212);
 }
 
 .containerimageshome {
@@ -167,4 +170,13 @@ body, html {
 .thumbnailinfo {
     background-color: #f8f5f0;
     border: 0;
+}
+
+.thumbnailhometext{
+    text-align: left;
+    margin-top: 70px;
+}
+
+#newcollection{
+    font-size:  5.5em;
 }

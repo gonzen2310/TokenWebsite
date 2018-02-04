@@ -29,8 +29,6 @@ var data = [
         image: "https://i.imgur.com/CsQCE2R.jpg"
     },
     
-    
-    
     // Pullovers
     {
         model: "12-0324",
