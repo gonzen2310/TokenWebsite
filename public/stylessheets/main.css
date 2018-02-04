@@ -147,3 +147,24 @@ body, html {
 .fit {
     padding: 20px 0;
 }
+
+.map {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contactcontent {
+    background-color: #f8f5f0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.thumbnailmap {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.thumbnailinfo {
+    background-color: #f8f5f0;
+    border: 0;
+}
