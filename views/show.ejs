@@ -1,29 +1,30 @@
 <!--INCLUDE HEADER-->
 <%include partials/header%>
-
-<div class="first">
+<section class="first">
     <div class = "container">
-    <div class="row center-row">
-        <div class="col-sm-5">
-            <div class="thumbnail right-caption">
-                <img class="img-responsive" src="<%=foundToken.image%>">
-            </div>
-        </div>
-         <div class="col-sm-6">
-            <div class="thumbnail">
-                <h2><%=foundToken.description%></h2>
-                <h2>STYLE: <%=foundToken.model%></h2>
-                <p>96% cotton - 4% spandex</p>
-                <p>Short sleeve silhouette</p>
-                <p>Text imprint for added style</p>
-                <p>Size:</p>
-                <p>S - M - L - XL</p>
-                <p>Color:</p>
-                
+        <div class="row">
+            <div class="col-md-12">
+                <div class="thumbnail historycard">
+                    <p>
+                        <div class="col-sm-4">
+                            <div class="thumbnail">
+                            <img class="img-responsive" src="<%=foundToken.image%>">
+                        </div>
+                        </div>
+                        <h2><%=foundToken.description%></h2>
+                        <h2>STYLE: <%=foundToken.model%></h2>
+                        <p>96% cotton - 4% spandex</p>
+                        <p>Short sleeve silhouette</p>
+                        <p>Text imprint for added style</p>
+                        <p>Size:</p>
+                        <p>S - M - L - XL</p>
+                        <p>Color:</p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
+</section>
+
 <!--INCLUDE FOOTER-->
 <%include partials/footer%>
