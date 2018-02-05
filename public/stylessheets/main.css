@@ -1,5 +1,5 @@
 .navbar-default .navbar-nav>li>a {
-    color: #FC942D;
+    color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -179,4 +179,10 @@ body, html {
 
 #newcollection{
     font-size:  5.5em;
+}
+
+.textilexpress {
+    background-color: red;
+    text-align: left;
+    font-size: 10px
 }
