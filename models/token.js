@@ -4,6 +4,7 @@ var mongoose = require("mongoose");
 
 // Define collection: Structure
 var tokenSchema = new mongoose.Schema({
+    type: String,
     model: String,
     description: String,
     image: String

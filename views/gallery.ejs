@@ -7,20 +7,22 @@
         <div class="container ">
     <header class="jumbotron">
         <h1>Our Collection Spring/Summer 2018</h1>
-        <p>T-shirts</p>
+        
+
     </header>
         <% collection.forEach(function(shirt){ %>
-            <div class="col-md-4 col-xs-6">
-                <a href="/gallery/<%= shirt._id%>" class="thumbnail" style="background: #000000;">
-                    <img style="width: 100%; height: 500px; background-size: cover; background-position: center center;" src="<%=shirt.image%>">
-
-
-                </a>
-            </div>
+            
+        <div class="col-md-4 col-xs-6">
+            <a href="/gallery/<%= shirt._id%>" class="thumbnail" style="background: #000000;">
+                <img style="width: 100%; height: 500px; background-size: cover; background-position: center center;" src="<%=shirt.image%>">
+            </a>
+        </div>
+            
         <% }); %>
     </div>
 </div>
 </section>
+
 
 <!--INCLUDE FOOTER-->
 <%include partials/footer%>
