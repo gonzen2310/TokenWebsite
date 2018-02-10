@@ -19,7 +19,7 @@
 
     </header>
         <% collection.forEach(function(shirt){ %>
-        <% if(shirt.type === "pullOversLongSleeve" || shirt.type === "pullOversShortSleeve") {%>
+        <% if(shirt.type === "bottom") {%>
         <div class="col-md-4 col-xs-6">
             <a href="/gallery/<%= shirt._id%>" class="thumbnail" style="background: #000000;">
                 <img style="width: 100%; height: 500px; background-size: cover; background-position: center center;" src="<%=shirt.image%>">

@@ -25,7 +25,7 @@ app.get("/", function(req, res){
     res.render("home");
 });
 
-
+///////////////////////////////////////
 // Gallery Page
 app.get("/gallery", function(req, res){
    // Get tokens from DB
@@ -38,6 +38,61 @@ app.get("/gallery", function(req, res){
        }
    });
 });
+
+// Gallery Page
+app.get("/gallery2", function(req, res){
+   // Get tokens from DB
+   Token.find({}, function(err, allCollections){
+       if (err) {
+           console.log(err);
+       }
+       else {
+           res.render("gallery2", {collection: allCollections}); 
+       }
+   });
+});
+
+// Gallery Page
+app.get("/gallery3", function(req, res){
+   // Get tokens from DB
+   Token.find({}, function(err, allCollections){
+       if (err) {
+           console.log(err);
+       }
+       else {
+           res.render("gallery3", {collection: allCollections}); 
+       }
+   });
+});
+
+// Gallery Page
+app.get("/gallery4", function(req, res){
+   // Get tokens from DB
+   Token.find({}, function(err, allCollections){
+       if (err) {
+           console.log(err);
+       }
+       else {
+           res.render("gallery4", {collection: allCollections}); 
+       }
+   });
+});
+
+// Gallery Page
+app.get("/gallery5", function(req, res){
+   // Get tokens from DB
+   Token.find({}, function(err, allCollections){
+       if (err) {
+           console.log(err);
+       }
+       else {
+           res.render("gallery5", {collection: allCollections}); 
+       }
+   });
+});
+
+///////////////////////////////
+
 
 // Individual element
 app.get("/gallery/:id", function(req, res) {
